@@ -7,12 +7,12 @@ class Solution(object):
         
 
         out = []
-        nodup = []
+        nodup = {}
 
 
         for n in nums:
             if n not in nodup:
-                nodup.append(n)
+                nodup[n] = True 
         
         i = 1
 
