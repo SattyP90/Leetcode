@@ -17,7 +17,7 @@ class Solution(object):
                 #if n -1 does exist that means the start of the sequence is further in the list
 
 
-                current = n #set the start of the list here 
+                current = n #set the start of the order here 
                 length = 1 #start counting the len
 
 
