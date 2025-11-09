@@ -26,7 +26,7 @@ class Solution(object):
                     current += 1 #move to that numbers 
                     length += 1 #add to the lenght 
 
-                    maxL = max(maxL, length) #update the maxL to the largest value so far 
+                maxL = max(maxL, length) #update the maxL to the largest value so far 
 
         
         return maxL #return maxL
